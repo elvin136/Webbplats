@@ -1,1 +1,202 @@
-sfhfhf
+/* Bakgrunden (=färg) */ 
+body {
+    background-color : white;
+    }
+
+    /* Storleken på allt högst upp på sidan */ 
+    header {
+    width : 1000px;
+    margin-left : auto;
+    margin-right : auto;
+    padding : 0 0 0 0;
+    height : 200px;
+    text-align : center;
+    }
+
+    /* Bilden i headern på Joel */ 
+    #headerbild {
+    width : 1000px;
+    margin-left : 0px;
+    margin-right : auto;
+    padding : 0 0 0 0;
+    height : 500px;
+    }
+
+    .top-right {
+    position: absolute;
+    top: 400px;
+    right: 220px;
+    font-family : Oswald;
+    font-size : 40px;
+    font-weight : bold;
+    color : #000080;
+    text-align : center;
+    width: 500px;
+    }
+
+    
+    /* Menyn högst upp med telefonnummer och mejladress */ 
+    #menyett {
+    width : 1000px;
+    float: left;
+    list-style-type : none;
+    margin-top : 10px;
+    margin-bottom : 0;
+    margin-right : 0;
+    margin-left : 0;
+    padding : 0;
+    overflow : hidden;
+    background-color : rgb(255, 136, 0);
+    box-shadow: 0 0 2px 1px rgb(0 0 0 / 0.5);
+    }
+
+    /* Menyn under loggan med alla olika titlar på sidan */ 
+    #menytvå {
+        width : 700px;
+        list-style-type : none;
+        margin-top : 100px;
+        margin-bottom : 0;
+        margin-right : 100px;
+        margin-left : 0;
+        padding : 50px;
+        overflow : hidden;
+        background-color: white;
+        }
+
+   /* Vart meny1 ska vara, höger, vänster eller centrerat */ 
+     #menyett li {
+    float : left;
+    }
+
+    /* Typsnitt och storlek på meny1 */ 
+    #menyett li a {
+    font-family : Oswald;
+    font-size : 22px;
+    font-weight : bold;
+    color : black;
+    text-align : right;
+    padding : 20px 20px 20px;
+    text-decoration : none;
+    }
+
+    /* Vad som händer när man tar pilen över meny1 text (just nu blir det svart bakgrund bara) */ 
+    #menyett li a:hover {
+    background-color : rgb(247, 247, 237);
+    }
+
+     /* Vart meny2 ska vara, höger, vänster eller centrerat */ 
+   #menytvå li {
+    float : right;
+    }
+
+    /* Typsnitt och storlek på meny2*/ 
+    #menytvå li a {
+    font-family : Oswald;
+    font-size : 22px;
+    font-weight : bold;
+    color : black;
+    text-align : right;
+    padding : 20px 20px 20px;
+    text-decoration : none;
+    }
+
+    /* Vad som händer när man tar pilen över meny2 text (just nu blir det svart bakgrund bara) */ 
+    #menytvå li a:hover {
+    background-color : rgb(247, 247, 237);
+    }
+
+    /* Wrapper = storlek på hela sidan */ 
+    #wrapper {
+    width : 1000px;
+    margin : 0 auto;
+    padding : 0 0 0;
+    vertical-align : middle;
+    }
+
+    /* Content = Textinnehållet under headern */ 
+    #content {
+    margin-left : auto;
+    margin-right : auto;
+    width : 900px;
+    background : rgb(247, 247, 237);
+    margin-top : 50px;
+    padding : 30px;
+    font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align : left;
+    vertical-align : middle;
+    }
+
+    /* Rubrik i headern */ 
+    h1 {
+    font-family : Oswald;
+    font-size : 40px;
+    font-weight : bold;
+    color : #000080;
+    text-align : left;
+    padding-top: 0px;
+    }
+
+    /* Titlarna i content */ 
+    h2 {
+    font-family : Oswald;
+    font-size : 28px;
+    font-weight : bold;
+    color : #000080;
+    margin-top : 20px;
+    margin-bottom : 0;
+    padding : 0;
+    }
+
+    /* Brödtexten i content */ 
+    p {
+    font-family : Cabin;
+    font-size : 19px;
+    font-weight : normal;
+    color : black;
+    margin-top : 20px;
+    margin-bottom : 0;
+    padding : 0;
+    }
+
+    /* Alla bilder på sidan */ 
+    img {
+    border-radius : 1px;
+    padding : 0;
+    margin : 0;
+    }
+
+    /* Vad som händer när man tar pilen på alla bilder,
+    just nu blir det lite transparenta och får skugga */ 
+    img:hover {
+    box-shadow : 0 0 2px 1px rgb(0 140 186 / 0.5);
+    opacity : 0.5;
+    }
+
+    .center {
+    display : block;
+    margin-left : auto;
+    margin-right : auto;
+    width : 50%;
+    }
+
+    /* Alla punktlistor på sidan */
+    #punkter { 
+    font-family : Cabin;
+    font-size : 18px;
+    text-align : left;
+    width : 200px;
+    color : black;
+    margin-top : 0px;
+    margin-bottom : 0;
+    padding : 0px;
+    }
+
+
+    /* logga högst upp på sidan */
+    #logga {
+    float : left;
+    width : 200px;
+    height : 110px;
+    margin-bottom : 5px;
+    margin-top: 5px;
+    }
