@@ -15,18 +15,15 @@ body {
 
     /* Headern under "remsan"*/ 
     #headerbild {
-<<<<<<< HEAD
     width : 1000px;
     margin-top: 0px;
     margin-left : 0px;
     margin-right : auto;
     padding : 0 0 0 0;
     height : 200px;
-=======
   
     margin:auto;
     
->>>>>>> 98cbaa8d525cf335a1b75ce532cccb92b98cc679
     }
 
     .top-right {
@@ -158,19 +155,6 @@ body {
     width : 50%;
     }
 
-<<<<<<< HEAD
-    /* Alla punktlistor på sidan */
-    #punkter { 
-    font-family : Cabin;
-    font-size : 18px;
-    text-align : left;
-    width : 200px;
-    color : black;
-    margin-top : 0px;
-    margin-bottom : 0;
-    padding : 0px;
-    }
-
     /* Aside */
     aside {
       width: 40%;
@@ -189,7 +173,7 @@ body {
   p {
       font-family: 'Fira Sans', sans-serif;
   }
-=======
+
     /* logga högst upp på sidan */
     #logga {
     float : left;
@@ -199,7 +183,6 @@ body {
     margin-top: 5px;
     }
 
->>>>>>> 98cbaa8d525cf335a1b75ce532cccb92b98cc679
     .my-form{
       padding:20px;
   }
