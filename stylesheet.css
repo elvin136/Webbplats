@@ -88,7 +88,7 @@ body {
 
      /* Vart meny2 ska vara, höger, vänster eller centrerat */ 
    #menytvå li {
-    float : right;
+    float : center;
     }
 
     /* Typsnitt och storlek på meny2*/ 
