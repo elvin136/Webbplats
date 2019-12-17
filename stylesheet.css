@@ -209,6 +209,7 @@ body {
   
   .my-form .form-group {
       padding-bottom:15px
+      
   }
   
   .my-form label{
@@ -218,4 +219,10 @@ body {
   .my-form input[type="text"], .my-form textarea{
       padding:8px;
       width:30%;
+  }
+
+  .formgroup2{
+    padding:8px;
+    width:100%;
+    
   }
