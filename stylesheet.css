@@ -21,6 +21,7 @@ body {
     margin-right : auto;
     padding : 0 0 0 0;
     height : 200px;
+
     margin:auto;
     
     }
@@ -75,8 +76,6 @@ body {
     #menyett li a:hover {
     background-color : rgb(247, 247, 237);
   }
-    
-
     /* Wrapper = storlek på hela sidan */ 
     #wrapper {
     width : 1000px;
@@ -154,6 +153,8 @@ body {
     width : 50%;
     }
 
+<<<<<<< HEAD
+=======
     /* Alla punktlistor på sidan */
     #punkter { 
     font-family : Cabin;
@@ -184,14 +185,7 @@ body {
   p {
       font-family: 'Fira Sans', sans-serif;
   }
-    /* logga högst upp på sidan */
-    #logga {
-    float : left;
-    width : 200px;
-    height : 110px;
-    margin-bottom : 5px;
-    margin-top: 5px;
-    }
+
     .my-form{
       padding:20px;
   }
