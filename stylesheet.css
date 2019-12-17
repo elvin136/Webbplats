@@ -89,7 +89,7 @@ body {
 
      /* Vart meny2 ska vara, höger, vänster eller centrerat */ 
    #menytvå li {
-    float : right;
+    float : left;
     }
 
     /* Typsnitt och storlek på meny2*/ 
@@ -98,7 +98,7 @@ body {
     font-size : 22px;
     font-weight : bold;
     color : black;
-    text-align : center;
+    text-align : left;
     padding : 20px 20px 20px;
     text-decoration : none;
     margin-right:400px;
