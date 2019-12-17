@@ -200,3 +200,20 @@ body {
     margin-bottom : 5px;
     margin-top: 5px;
     }
+
+    .my-form{
+      padding:20px;
+  }
+  
+  .my-form .form-group {
+      padding-bottom:15px
+  }
+  
+  .my-form label{
+      display:block;
+  }
+  
+  .my-form input[type="text"], .my-form textarea{
+      padding:8px;
+      width:30%;
+  }
