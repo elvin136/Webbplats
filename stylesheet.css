@@ -121,7 +121,7 @@ body {
     margin-left : auto;
     margin-right : auto;
     width : 900px;
-    background : rgb(247, 247, 237);
+    background : blanchedalmond;
     margin-top : 50px;
     padding : 30px;
     font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -134,7 +134,7 @@ body {
     font-family : Oswald;
     font-size : 40px;
     font-weight : bold;
-    color : #000080;
+    color : black;
     text-align : left;
     padding-top: 0px;
     }
@@ -144,7 +144,7 @@ body {
     font-family : Oswald;
     font-size : 28px;
     font-weight : bold;
-    color : #000080;
+    color : black;
     margin-top : 20px;
     margin-bottom : 0;
     padding : 0;
