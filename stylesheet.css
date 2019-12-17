@@ -3,7 +3,7 @@ body {
     background-color : white;
     }
 
-    /* Storleken på allt högst upp på sidan */ 
+    /* Remsan högst upp på sidan*/ 
     header {
     width : 1000px;
     margin-left : auto;
@@ -13,14 +13,14 @@ body {
     text-align : center;
     }
 
-    /* Bilden i headern på Joel */ 
+    /* Headern under "remsan"*/ 
     #headerbild {
     width : 1000px;
     margin-top: 10px;
     margin-left : 0px;
     margin-right : auto;
     padding : 0 0 0 0;
-    height : 500px;
+    height : 200px;
     }
 
     .top-right {
