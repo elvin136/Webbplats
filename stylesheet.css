@@ -103,7 +103,10 @@ body {
     font-weight : bold;
     color : black;
     text-align : left;
+    margin-top : 20px;
     padding-top: 0px;
+    margin-bottom : 0;
+    padding : 0;
     }
 
     /* Titlarna i content */ 
