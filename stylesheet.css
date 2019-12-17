@@ -174,15 +174,6 @@ body {
       font-family: 'Fira Sans', sans-serif;
   }
 
-    /* logga högst upp på sidan */
-    #logga {
-    float : left;
-    width : 200px;
-    height : 110px;
-    margin-bottom : 5px;
-    margin-top: 5px;
-    }
-
     .my-form{
       padding:20px;
   }
