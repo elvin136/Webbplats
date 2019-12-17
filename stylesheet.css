@@ -53,19 +53,6 @@ body {
     box-shadow: 0 0 2px 1px rgb(0 0 0 / 0.5);
     }
 
-    /* Menyn under loggan med alla olika titlar på sidan */ 
-    #menytvå {
-        width : 700px;
-        list-style-type : none;
-        margin-top : 100px;
-        margin-bottom : 0;
-        margin-right : 100px;
-        margin-left : 0;
-        padding : 50px;
-        overflow : hidden;
-        background-color: white;
-        }
-
    /* Vart meny1 ska vara, höger, vänster eller centrerat */ 
      #menyett li {
     float : left;
@@ -85,29 +72,8 @@ body {
     /* Vad som händer när man tar pilen över meny1 text (just nu blir det svart bakgrund bara) */ 
     #menyett li a:hover {
     background-color : rgb(247, 247, 237);
-    }
-
-     /* Vart meny2 ska vara, höger, vänster eller centrerat */ 
-   #menytvå li {
-    float : left;
-    }
-
-    /* Typsnitt och storlek på meny2*/ 
-    #menytvå li a {
-    font-family : Oswald;
-    font-size : 22px;
-    font-weight : bold;
-    color : black;
-    text-align : left;
-    padding : 20px 20px 20px;
-    text-decoration : none;
-    margin-right:400px;
-    }
-
-    /* Vad som händer när man tar pilen över meny2 text (just nu blir det svart bakgrund bara) */ 
-    #menytvå li a:hover {
-    background-color : rgb(247, 247, 237);
-    }
+  }
+    
 
     /* Wrapper = storlek på hela sidan */ 
     #wrapper {
