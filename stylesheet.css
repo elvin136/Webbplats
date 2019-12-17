@@ -16,6 +16,7 @@ body {
     /* Bilden i headern på Joel */ 
     #headerbild {
     width : 1000px;
+    margin-top: 10px;
     margin-left : 0px;
     margin-right : auto;
     padding : 0 0 0 0;
@@ -29,7 +30,7 @@ body {
     font-family : Oswald;
     font-size : 40px;
     font-weight : bold;
-    color : #000080;
+    color : black;
     text-align : center;
     width: 500px;
     margin-top: 30px;
@@ -48,7 +49,7 @@ body {
     margin-left : 0;
     padding : 0;
     overflow : hidden;
-    background-color : rgb(255, 136, 0);
+    background-color : blanchedalmond;
     box-shadow: 0 0 2px 1px rgb(0 0 0 / 0.5);
     }
 
@@ -121,7 +122,7 @@ body {
     margin-left : auto;
     margin-right : auto;
     width : 900px;
-    background : rgb(247, 247, 237);
+    background : blanchedalmond;
     margin-top : 50px;
     padding : 30px;
     font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -134,7 +135,7 @@ body {
     font-family : Oswald;
     font-size : 40px;
     font-weight : bold;
-    color : #000080;
+    color : black;
     text-align : left;
     padding-top: 0px;
     }
@@ -144,7 +145,7 @@ body {
     font-family : Oswald;
     font-size : 28px;
     font-weight : bold;
-    color : #000080;
+    color : black;
     margin-top : 20px;
     margin-bottom : 0;
     padding : 0;
