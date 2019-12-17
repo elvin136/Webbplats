@@ -97,9 +97,10 @@ body {
     font-size : 22px;
     font-weight : bold;
     color : black;
-    text-align : right;
+    text-align : center;
     padding : 20px 20px 20px;
     text-decoration : none;
+    margin-right:400px;
     }
 
     /* Vad som händer när man tar pilen över meny2 text (just nu blir det svart bakgrund bara) */ 
