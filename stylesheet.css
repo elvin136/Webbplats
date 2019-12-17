@@ -152,7 +152,7 @@ body {
     margin-right : auto;
     width : 50%;
     }
-    
+
     /* Alla punktlistor på sidan */
     #punkter { 
     font-family : Cabin;
@@ -167,11 +167,10 @@ body {
 
     /* Aside */
     aside {
-      width: 40%;
+      width: 15%;
       padding-left: .5rem;
       margin-left: .5rem;
       float: right;
-      box-shadow: inset 5px 0 5px -5px #29627e;
       font-style: italic;
       color: #29627e;
   }
