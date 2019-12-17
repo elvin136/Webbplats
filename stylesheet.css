@@ -146,19 +146,6 @@ body {
     width : 50%;
     }
 
-    /* Alla punktlistor på sidan */
-    #punkter { 
-    font-family : Cabin;
-    font-size : 18px;
-    text-align : left;
-    width : 200px;
-    color : black;
-    margin-top : 0px;
-    margin-bottom : 0;
-    padding : 0px;
-    }
-
-
     /* logga högst upp på sidan */
     #logga {
     float : left;
