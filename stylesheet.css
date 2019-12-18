@@ -74,7 +74,7 @@ header {
 
     /* Vad som händer när man tar pilen över meny1 text (just nu blir det svart bakgrund bara) */ 
 #menyett li a:hover {
-    background-color :rgb(255, 242, 224);
+    background-color : whitesmoke;
 }
     /* Wrapper = storlek på hela sidan */ 
 #wrapper {
