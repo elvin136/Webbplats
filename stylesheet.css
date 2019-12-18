@@ -67,7 +67,7 @@ header {
     text-align : right;
     padding : 20px 20px 20px;
     text-decoration : none;
-    color: #12ddfb;  /*texten lyser om man markerar på den*/
+    color: black;  /*texten lyser om man markerar på den*/
 }
 
     /* Vad som händer när man tar pilen över meny1 text (just nu blir det svart bakgrund bara) */ 
