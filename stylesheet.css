@@ -217,22 +217,22 @@ p {
 
 /* unvisited link */
 a:link {
-  color: black;
+  color: red;
 }
 
 /* visited link */
 a:visited {
-  color: black;
+  color: green;
 }
 
 /* mouse over link */
 a:hover {
-  color: #12ddfb;
+  color: hotpink;
 }
 
 /* selected link */
 a:active {
-  color: black;
+  color: blue;
 }
 
 
