@@ -1,6 +1,6 @@
 /* Bakgrunden (=färg) */ 
 body {
-    background-color : white;
+    background-color : lightsteelblue;
     }
     /* Remsan högst upp på sidan*/ 
 header {
@@ -73,10 +73,11 @@ header {
 
     /* Vad som händer när man tar pilen över meny1 text (just nu blir det svart bakgrund bara) */ 
 #menyett li a:hover {
-    background-color : rgb(247, 247, 237);
+    background-color :rgb(255, 242, 224);
 }
     /* Wrapper = storlek på hela sidan */ 
 #wrapper {
+  
     width : 1000px;
     margin : 0 auto;
     padding : 0 0 0;
@@ -96,6 +97,7 @@ header {
     text-align : left;
     vertical-align : middle;
     color:darkblue;  /*texten lyser om man markerar på den*/
+    border-radius: 20px;
 }
 
     /* Rubrik i headern */ 
