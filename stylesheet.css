@@ -115,6 +115,7 @@ h1 {
 
     /* Titlarna i content */ 
 h2 {
+  -webkit-text-stroke: 1px black;
     font-family : Oswald;
     font-size : 40px;
     font-weight : bold;
@@ -235,7 +236,7 @@ a:active {
 
 .image-clip{
     line-height:1;
-    background: url(https://github.com/elvin136/Webbplats/blob/master/bullar.jpg) ;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ZHYcjscDJrIWCmlfSmi41-uGiJxo0Sawa3YpxpNaEOaXgroO&s);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
