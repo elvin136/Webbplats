@@ -216,7 +216,7 @@ p {
 
 /* unvisited link */
 a:link {
-    color: red;
+    color: black;
 }
 
 /* visited link */
