@@ -67,6 +67,8 @@ header {
     text-align : right;
     padding : 20px 20px 20px;
     text-decoration : none;
+    color:darkblue;  /*texten lyser om man markerar på den*/
+    
 }
 
     /* Vad som händer när man tar pilen över meny1 text (just nu blir det svart bakgrund bara) */ 
@@ -79,6 +81,7 @@ header {
     margin : 0 auto;
     padding : 0 0 0;
     vertical-align : middle;
+    
 }
 
     /* Content = Textinnehållet under headern */ 
@@ -92,6 +95,7 @@ header {
     font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align : left;
     vertical-align : middle;
+    color:darkblue;  /*texten lyser om man markerar på den*/
 }
 
     /* Rubrik i headern */ 
