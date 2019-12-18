@@ -68,6 +68,7 @@ header {
     padding : 20px 20px 20px;
     text-decoration : none;
     color: black;  /*texten lyser om man markerar på den*/
+    -webkit-text-stroke: 0.5px white;
 }
 
     /* Vad som händer när man tar pilen över meny1 text (just nu blir det svart bakgrund bara) */ 
@@ -101,6 +102,7 @@ header {
 
     /* Rubrik i headern */ 
 h1 {
+  -webkit-text-stroke: 1px black;
     font-family : Oswald;
     font-size : 50px;
     font-weight : bold;
