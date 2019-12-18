@@ -69,6 +69,7 @@ header {
     padding : 20px 20px 20px;
     text-decoration : none;
     color: #12ddfb;  /*texten lyser om man markerar på den*/
+    text-shadow: 1px 1px black;
     
 }
 
@@ -112,6 +113,7 @@ h1 {
     padding-top: 0px;
     margin-bottom : 0;
     padding : 0;
+    text-shadow: 2px 2px black;
 }
 
     /* Titlarna i content */ 
@@ -123,6 +125,7 @@ h2 {
     margin-top : 20px;
     margin-bottom : 0;
     padding : 0;
+    text-shadow: 2px 2px black;
 }
 
     /* Brödtexten i content */ 
