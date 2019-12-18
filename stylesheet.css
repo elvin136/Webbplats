@@ -75,7 +75,7 @@ header {
 
     /* Vad som händer när man tar pilen över meny1 text (just nu blir det svart bakgrund bara) */ 
 #menyett li a:hover {
-    background-color : whitesmoke;
+    background-color :rgb(255, 242, 224);
 }
     /* Wrapper = storlek på hela sidan */ 
 #wrapper {
@@ -107,7 +107,7 @@ h1 {
     font-family : Oswald;
     font-size : 40px;
     font-weight : bold;
-    color :#12ddfb ;
+    color : black;
     text-align : left;
     margin-top : 20px;
     padding-top: 0px;
@@ -121,7 +121,7 @@ h2 {
     font-family : Oswald;
     font-size : 28px;
     font-weight : bold;
-    color : #12ddfb;
+    color : black;
     margin-top : 20px;
     margin-bottom : 0;
     padding : 0;
@@ -182,10 +182,12 @@ p {
 
 .my-form{
     padding:20px;
+    color: black;
 }
   
 .my-form .form-group {
-    padding-bottom:15px    
+    padding-bottom:15px 
+     
 }
   
 .my-form label{
@@ -199,7 +201,7 @@ p {
 
 .formgroup2{
     padding:8px;
-    width:100%;    
+    width:100%;  
 }
 
 .categories {
