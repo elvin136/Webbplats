@@ -204,3 +204,7 @@ p {
     padding:10px 15px;
     border:none;
 }
+
+a:hover{
+  color:red;  /*texten lyser om man markerar på den*/
+}
