@@ -215,17 +215,26 @@ p {
     border:none;
 }
 
+/* unvisited link */
 a:link {
-  color:black;
+  color: red;
 }
 
-a:hover{
-  color:#12ddfb;  /*texten lyser om man markerar på den*/
+/* visited link */
+a:visited {
+  color: green;
 }
 
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
 a:active {
-  color: black;
+  color: blue;
 }
+
 
 .image-clip{
   line-height:1;
