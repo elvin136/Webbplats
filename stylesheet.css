@@ -223,8 +223,9 @@ a:hover{
   color:#12ddfb;  /*texten lyser om man markerar på den*/
 }
 
-
-
+a:active {
+  color: blue;
+}
 
 .image-clip{
   line-height:1;
