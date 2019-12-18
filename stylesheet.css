@@ -95,7 +95,7 @@ header {
     font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align : left;
     vertical-align : middle;
-    color:darkblue;  /*texten lyser om man markerar på den*/
+    color: black;  /*texten lyser om man markerar på den*/
     border-radius: 10px;
 }
 
@@ -128,13 +128,13 @@ h2 {
 
     /* Brödtexten i content */ 
 p {
-    font-family : Cabin;
-    font-size : 19px;
-    font-weight : normal;
-    color : black;
-    margin-top : 0px;
-    margin-bottom : 0;
-    padding : 0;
+  font-family : Oswald;
+  font-size : 20px;
+  font-weight : normal;
+  color : black;
+  margin-top : 20px;
+  margin-bottom : 0;
+  padding : 0;
 }
 
     /* Alla bilder på sidan */ 
