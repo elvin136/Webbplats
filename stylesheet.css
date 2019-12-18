@@ -64,7 +64,6 @@ header {
     font-family : Oswald;
     font-size : 22px;
     font-weight : bold;
-    color : black;
     text-align : right;
     padding : 20px 20px 20px;
     text-decoration : none;
@@ -73,7 +72,7 @@ header {
 
     /* Vad som händer när man tar pilen över meny1 text (just nu blir det svart bakgrund bara) */ 
 #menyett li a:hover {
-    background-color: whitesmoke;
+    background-color : white;
 }
     /* Wrapper = storlek på hela sidan */ 
 #wrapper {
