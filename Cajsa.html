@@ -1,23 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="stylesheet.css" type="text/css">
-</head>
-<body>
-    <div id="wrapper">
-        <ul id="menyett">
-            <li><a href="index.html">START</a></li> 
-            <li><a href="Cajsa.html">Cajsa</a></li>
-            <li><a href="Elvin.html">Elvin</a></li>
-            <li><a href="Emelia.html">Emelia</a></li>                                   
-        </ul>
-        
+<html lang="sv">
+    <head>
+        <link rel="stylesheet" href="stylesheet.css" type="text/css">
+        <title> Cajsa, Elvin och Emelia </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+        <nav id="wrapper">       
+            <ul id="menyett">
+                <li><a href="index.html">START</a></li> 
+                <li><a href="Cajsa.html">Cajsa</a></li>
+                <li><a href="Elvin.html">Elvin</a></li>
+                <li><a href="Emelia.html">Emelia</a></li>                                        
+            </ul>  
+        </nav>
+
         <header>
-            <h1>Cajsa</h1>
-        </header>
-</body>
+            <img src="images/header1.png" alt="Header" width="1000">   
+        </header> 
+               
+        <div id="content">
+        <h1> Välkommen till oss </h1>
+        <aside>
+            <img src="images/bakning.jpg" alt="Bild på bakelser" width="250" height="240">
+            <img src="images/bak.jpg" alt="Bild på bakelser" width="250" height="240">
+            <img src="images/baka.jpg" alt="Bild på bakelser" width="250" height="240">
+        </aside>
+        <p>Våra mest omtyckta recept</p>
+        <div class="categories">
+            <ul>
+
+                <li><a href="https://www.ica.se/recept/kanelbullar-5342/" target="_blank">Kanelbullar</a></li>
+                <li><a href="https://www.arla.se/recept/kladdkaka/" target="_blank">Kladdkaka</a></li>
+                <li><a href="https://www.ica.se/recept/hallongrottor-4871/" target="_blank">Hallongrottor</a></li>
+                <li><a href="https://www.ica.se/recept/chokladbollar-5058/" target="_blank">Chockladbollar</a></li>
+                <li><a href="https://mittkok.expressen.se/recept/knackig-appelpaj-2/" target="_blank">Äppelpaj</a></li>
+
+            </ul>
+            
+            <article>
+                <h2 class="image-clip">Bakning är fantastiskt</h2>
+                <p>Vi älskar att baka och hoppas att vi kan inspirera er med våra
+                recept. Att baka är något som du kan göra ensam eller med en vän, en mysig
+                aktivitet som passar alla åldrar.
+                </p>
+            </article>
+            
+            <section>
+                <h2>Vill ni ha catering?</h2>
+                <p>Ska ni ha kalas eller bröllop och vill beställa tårtor eller andra bakelser
+                så kan ni beställa catering hos oss. 
+                </p>
+            </section>
+
+            <footer>
+            <h2>Kontakta oss</h2>
+            <form class="my-form">
+            <div class="form-group">
+                    <label>Namn: </label>
+                    <input type="text" name="name">
+                </div>
+                <div class="formg-group">
+                    <label>Email: </label>
+                    <input type="text" name="email">
+                </div>
+                <div class="form-group">
+                    <label>Meddelande: </label>
+                    <textarea name="message"></textarea>
+                </div>
+                <input class="button" type="submit" value="Skicka">       
+            </form>          
+            </footer>
+            </div>       
+    </div>
+    </body>
 </html>
+
