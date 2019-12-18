@@ -245,3 +245,8 @@ a:active {
     -moz-background-clip: text;
     background-clip: text;
 }
+
+footer {
+  background-color: white;
+  margin-right:65%;
+}
