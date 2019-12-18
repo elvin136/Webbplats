@@ -69,13 +69,12 @@ header {
     padding : 20px 20px 20px;
     text-decoration : none;
     color: #12ddfb;  /*texten lyser om man markerar på den*/
-    text-shadow: 1px 1px black;
     
 }
 
     /* Vad som händer när man tar pilen över meny1 text (just nu blir det svart bakgrund bara) */ 
 #menyett li a:hover {
-    background-color :rgb(255, 242, 224);
+    background-color: whitesmoke;
 }
     /* Wrapper = storlek på hela sidan */ 
 #wrapper {
@@ -113,7 +112,7 @@ h1 {
     padding-top: 0px;
     margin-bottom : 0;
     padding : 0;
-    text-shadow: 2px 2px black;
+    color: #12ddfb; 
 }
 
     /* Titlarna i content */ 
@@ -125,7 +124,7 @@ h2 {
     margin-top : 20px;
     margin-bottom : 0;
     padding : 0;
-    text-shadow: 2px 2px black;
+    color: #12ddfb; 
 }
 
     /* Brödtexten i content */ 
