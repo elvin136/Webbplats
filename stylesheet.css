@@ -104,13 +104,13 @@ h1 {
     font-family : Oswald;
     font-size : 50px;
     font-weight : bold;
-    color : black;
     text-align : left;
     margin-top : 20px;
     padding-top: 0px;
     margin-bottom : 0;
     padding : 0;
     color: #12ddfb; 
+    text-shadow: 1 px 1 px black;
 }
 
     /* Titlarna i content */ 
@@ -118,7 +118,6 @@ h2 {
     font-family : Oswald;
     font-size : 40px;
     font-weight : bold;
-    color : black;
     margin-top : 20px;
     margin-bottom : 0;
     padding : 0;
