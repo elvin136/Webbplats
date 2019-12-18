@@ -53,7 +53,7 @@ body {
     margin-left : 0;
     padding : 0;
     overflow : hidden;
-    background-color : blanchedalmond;
+    background-color : rgb(255, 242, 224);
     box-shadow: 0 0 2px 1px rgb(0 0 0 / 0.5);
     }
 
@@ -90,7 +90,7 @@ body {
     margin-left : auto;
     margin-right : auto;
     width : 950px;
-    background : blanchedalmond;
+    background : rgb(255, 242, 224);
     margin-top : 50px;
     padding : 30px;
     font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
