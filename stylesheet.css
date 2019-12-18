@@ -1,6 +1,6 @@
 /* Bakgrunden (=färg) */ 
 body {
-    background-color : white;
+    background-color : #12ddfb;
     }
     /* Remsan högst upp på sidan*/ 
 header {
@@ -51,6 +51,7 @@ header {
     overflow : hidden;
     background-color : whitesmoke;
     box-shadow: 0 0 2px 1px rgb(0 0 0 / 0.5);
+    border-radius:10px;
 }
 
    /* Vart meny1 ska vara, höger, vänster eller centrerat */ 
@@ -97,7 +98,7 @@ header {
     text-align : left;
     vertical-align : middle;
     color:darkblue;  /*texten lyser om man markerar på den*/
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
     /* Rubrik i headern */ 
