@@ -216,9 +216,16 @@ p {
     border:none;
 }
 
-a:hover{
-  color:red;  /*texten lyser om man markerar på den*/
+a:link {
+  color:black;
 }
+
+a:hover{
+  color:#12ddfb;  /*texten lyser om man markerar på den*/
+}
+
+
+
 
 .image-clip{
   line-height:1;
