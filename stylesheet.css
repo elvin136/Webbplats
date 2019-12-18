@@ -103,7 +103,7 @@ header {
     /* Rubrik i headern */ 
 h1 {
     font-family : Oswald;
-    font-size : 40px;
+    font-size : 50px;
     font-weight : bold;
     color : black;
     text-align : left;
@@ -117,13 +117,14 @@ h1 {
     /* Titlarna i content */ 
 h2 {
     font-family : Oswald;
-    font-size : 28px;
+    font-size : 40px;
     font-weight : bold;
     color : black;
     margin-top : 20px;
     margin-bottom : 0;
     padding : 0;
-    color: #12ddfb; 
+    color: #12ddfb;
+
 }
 
     /* Brödtexten i content */ 
@@ -223,9 +224,9 @@ a:hover{
   line-height:1;
   color: gray;
   background: url(http://eofdreams.com/data_images/dreams/image/image-07.jpg) no-repeat -1034px -942px;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-     -moz-background-clip: text;
-          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
 }
