@@ -205,7 +205,6 @@ p {
 .categories {
     padding:10px;
     border-radius:15px;
- 
 }
 
 .button {
@@ -234,7 +233,6 @@ a:hover {
 a:active {
   color: blue;
 }
-
 
 .image-clip{
   line-height:1;
