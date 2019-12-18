@@ -1,6 +1,6 @@
 /* Bakgrunden (=färg) */ 
 body {
-    background-color : whitesmoke;
+    background-color : white;
     }
     /* Remsan högst upp på sidan*/ 
 header {
@@ -49,7 +49,7 @@ header {
     margin-left : 0;
     padding : 0;
     overflow : hidden;
-    background-color : lightgray;
+    background-color : whitesmoke;
     box-shadow: 0 0 2px 1px rgb(0 0 0 / 0.5);
 }
 
@@ -90,7 +90,7 @@ header {
     margin-left : auto;
     margin-right : auto;
     width : 950px;
-    background : lightgrey;
+    background : whitesmoke;
     margin-top : 50px;
     padding : 30px;
     font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
