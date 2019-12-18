@@ -218,3 +218,14 @@ p {
 a:hover{
   color:red;  /*texten lyser om man markerar på den*/
 }
+
+.image-clip{
+  line-height:1;
+  color: gray;
+  background: url(http://eofdreams.com/data_images/dreams/image/image-07.jpg) no-repeat -1034px -942px;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
