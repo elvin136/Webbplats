@@ -216,31 +216,31 @@ p {
 
 /* unvisited link */
 a:link {
-  color: red;
+    color: black;
 }
 
 /* visited link */
 a:visited {
-  color:black;
+    color:black;
 }
 
 /* mouse over link */
 a:hover {
-  color:  #12ddfb;
+    color:  #12ddfb;
 }
 
 /* selected link */
 a:active {
-  color:black;
+    color:black;
 }
 
 .image-clip{
-  line-height:1;
-  color: gray;
-  background: url(http://eofdreams.com/data_images/dreams/image/image-07.jpg) no-repeat -1034px -942px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
+    line-height:1;
+    color: gray;
+    background: url(http://eofdreams.com/data_images/dreams/image/image-07.jpg) no-repeat -1034px -942px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
 }
