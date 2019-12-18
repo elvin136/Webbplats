@@ -247,7 +247,8 @@ a:active {
 }
 
 footer {
-  margin-top: 50px;
+  margin-top:50px;
+  padding-left:40px;
   padding-top:1px;
   background-color: white;
   margin-right:40%;
