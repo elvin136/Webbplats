@@ -61,7 +61,7 @@ header {
 
     /* Typsnitt och storlek på meny1 */ 
 #menyett li a {
-    font-family : Oswald;
+    font-family : arial;
     font-size : 22px;
     font-weight : bold;
     text-align : right;
