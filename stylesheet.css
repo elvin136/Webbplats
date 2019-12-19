@@ -77,7 +77,6 @@ header {
 }
     /* Wrapper = storlek på hela sidan */ 
 #wrapper {
-  
     width : 1000px;
     margin : 0 auto;
     padding : 0 0 0;
@@ -102,7 +101,7 @@ header {
 
     /* Rubrik i headern */ 
 h1 {
-  -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px black;
     font-family : Oswald;
     font-size : 50px;
     font-weight : bold;
@@ -117,7 +116,7 @@ h1 {
 
     /* Titlarna i content */ 
 h2 {
-  -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px black;
     font-family : Oswald;
     font-size : 40px;
     font-weight : bold;
@@ -130,13 +129,13 @@ h2 {
 
     /* Brödtexten i content */ 
 p {
-  font-family : Oswald;
-  font-size : 20px;
-  font-weight : normal;
-  color : black;
-  margin-top : 20px;
-  margin-bottom : 0;
-  padding : 0;
+    font-family : Oswald;
+    font-size : 20px;
+    font-weight : normal;
+    color : black;
+    margin-top : 20px;
+    margin-bottom : 0;
+    padding : 0;
 }
 
     /* Alla bilder på sidan */ 
@@ -171,11 +170,11 @@ aside {
     font-style: italic;
     color: #29627e;
 }
-  
+
 aside > p {
     margin: .5rem;
 }
-  
+
 p {
     font-family: 'Fira Sans', sans-serif;
 }
@@ -244,8 +243,7 @@ a:active {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    -moz-background-clip: text;
-   
+    -moz-background-clip: text;  
 }
 
 footer {  
