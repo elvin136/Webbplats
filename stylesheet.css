@@ -193,9 +193,10 @@ input[type=text]{
     margin-top: 10px;
 }
 #textarea {
-    margin-right: -16.5%;
+    margin-right: -13.2%;
     float: right;
     margin-top: 10px;
+    max-width: 50%;
 
 }
 .categories {
