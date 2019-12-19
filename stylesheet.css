@@ -238,13 +238,13 @@ a:active {
     float:right;
 }
 
-.image-clip{
+.image-clip {
     line-height:1;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ZHYcjscDJrIWCmlfSmi41-uGiJxo0Sawa3YpxpNaEOaXgroO&s);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;  
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;  
 }
 
 footer {  
