@@ -183,11 +183,11 @@ p {
 .my-form{
     padding:20px;
     color: black;
+    float: right;
 }
   
 .my-form .form-group {
     padding-bottom:15px 
-    float: right;
      
 }
   
