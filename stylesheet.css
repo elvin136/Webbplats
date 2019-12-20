@@ -180,25 +180,6 @@ p {
 }
 
 .my-form{
-<<<<<<< HEAD
-    padding:20px;
-    color: black;
-    float: right;
-}
-  
-.my-form .form-group {
-    padding-bottom:15px 
-     
-}
-  
-.my-form label{
-    display:block;
-}
-  
-.my-form input[type="text"], .my-form textarea{
-    padding:8px;
-    width:30%;
-=======
     width: 60%;
     background-color: #fff;
     margin-top: 20px;
@@ -210,7 +191,6 @@ input[type=text]{
     float: right;
     margin-right:-20%;
     margin-top: 10px;
->>>>>>> 9f33c344b1377c0473143045ddfa19819f6db8de
 }
 #textarea {
     margin-right: -13.2%;
