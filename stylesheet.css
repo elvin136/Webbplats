@@ -77,7 +77,6 @@ header {
 }
     /* Wrapper = storlek på hela sidan */ 
 #wrapper {
-  
     width : 1000px;
     margin : 0 auto;
     padding : 0 0 0;
@@ -102,7 +101,7 @@ header {
 
     /* Rubrik i headern */ 
 h1 {
-  -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px black;
     font-family : Oswald;
     font-size : 50px;
     font-weight : bold;
@@ -117,7 +116,7 @@ h1 {
 
     /* Titlarna i content */ 
 h2 {
-  -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px black;
     font-family : Oswald;
     font-size : 40px;
     font-weight : bold;
@@ -130,13 +129,13 @@ h2 {
 
     /* Brödtexten i content */ 
 p {
-  font-family : Oswald;
-  font-size : 20px;
-  font-weight : normal;
-  color : black;
-  margin-top : 20px;
-  margin-bottom : 0;
-  padding : 0;
+    font-family : Oswald;
+    font-size : 20px;
+    font-weight : normal;
+    color : black;
+    margin-top : 20px;
+    margin-bottom : 0;
+    padding : 0;
 }
 
     /* Alla bilder på sidan */ 
@@ -171,16 +170,17 @@ aside {
     font-style: italic;
     color: #29627e;
 }
-  
+
 aside > p {
     margin: .5rem;
 }
-  
+
 p {
     font-family: 'Fira Sans', sans-serif;
 }
 
 .my-form{
+<<<<<<< HEAD
     padding:20px;
     color: black;
     float: right;
@@ -198,23 +198,40 @@ p {
 .my-form input[type="text"], .my-form textarea{
     padding:8px;
     width:30%;
+=======
+    width: 60%;
+    background-color: #fff;
+    margin-top: 20px;
 }
+input[type=text]{
 
-.formgroup2{
-    padding:8px;
-    width:100%;  
+    width: 50%;
+    padding: 12px 20px;
+    float: right;
+    margin-right:-20%;
+    margin-top: 10px;
+>>>>>>> 9f33c344b1377c0473143045ddfa19819f6db8de
 }
+#textarea {
+    margin-right: -13.2%;
+    float: right;
+    margin-top: 10px;
+    max-width: 50%;
 
+}
 .categories {
     padding:10px;
     border-radius:15px;
 }
 
 .button {
-    background-color:#333;
-    color:#fff;
-    padding:10px 15px;
-    border:none;
+    margin-top: 10px;
+    margin-left: 35.5%;
+    width: 120px;
+    height: 40px;
+    background-color: #222;
+    color: #fff;
+    margin-bottom: 10px;
 }
 
 /* unvisited link */
@@ -236,21 +253,24 @@ a:hover {
 a:active {
     color:black;
 }
-
-.image-clip{
-    line-height:1;
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ZHYcjscDJrIWCmlfSmi41-uGiJxo0Sawa3YpxpNaEOaXgroO&s);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
+#kontakt{
+    margin-right: -17.5%;
+    float:right;
 }
 
-footer {
-  margin-top:50px;
-  padding: 98px;
-  padding-top:1px;
-  background-color: white;
-  margin-right:40%;
+.image-clip {
+    line-height:1;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ZHYcjscDJrIWCmlfSmi41-uGiJxo0Sawa3YpxpNaEOaXgroO&s);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;  
+}
+
+footer {  
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 20px; 
 }
