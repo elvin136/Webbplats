@@ -162,7 +162,6 @@ aside {
     margin-left: 20%;
     margin-right: 20%;
     float: right;
-    font-style: italic;
     color: #29627e;
 }
 
@@ -178,7 +177,6 @@ p {
     width: 60%;
     background-color: #fff;
     margin-top: 20px;
-<<<<<<< HEAD
 }
 
 input[type=text]{
@@ -190,7 +188,7 @@ input[type=text]{
 }
   
 .my-form .form-group {
-    padding-bottom:15px 
+    padding-bottom:15px    
      
 }
   
@@ -203,25 +201,11 @@ input[type=text]{
     width:30%;
 }
 
-=======
-}
-
-input[type=text]{
-
-    width: 50%;
-    padding: 12px 20px;
-    float: right;
-    margin-right:-20%;
-    margin-top: 10px;
-}
-
->>>>>>> edf519be6fcc448471b4e57c08f025ccd899c2b2
 #textarea {
     margin-right: -13.2%;
     float: right;
     margin-top: 10px;
     max-width: 50%;
-
 }
 
 .categories {
