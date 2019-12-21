@@ -81,7 +81,6 @@ header {
     margin : 0 auto;
     padding : 0 0 0;
     vertical-align : middle;
-    
 }
 
     /* Content = Textinnehållet under headern */ 
@@ -124,7 +123,6 @@ h2 {
     margin-bottom : 0;
     padding : 0;
     color: #12ddfb;
-
 }
 
     /* Brödtexten i content */ 
@@ -144,7 +142,6 @@ img {
     padding : 0;
     margin : 0;
 }
-
     /* Vad som händer när man tar pilen på alla bilder,
     just nu blir det lite transparenta och får skugga */ 
 img:hover {
@@ -158,8 +155,6 @@ img:hover {
     margin-right : auto;
     width : 50%;
 }
-
-
     /* Aside */
 aside {
     width: 15%;
@@ -183,6 +178,7 @@ p {
     width: 60%;
     background-color: #fff;
     margin-top: 20px;
+<<<<<<< HEAD
 }
 
 input[type=text]{
@@ -207,6 +203,19 @@ input[type=text]{
     width:30%;
 }
 
+=======
+}
+
+input[type=text]{
+
+    width: 50%;
+    padding: 12px 20px;
+    float: right;
+    margin-right:-20%;
+    margin-top: 10px;
+}
+
+>>>>>>> edf519be6fcc448471b4e57c08f025ccd899c2b2
 #textarea {
     margin-right: -13.2%;
     float: right;
@@ -214,6 +223,7 @@ input[type=text]{
     max-width: 50%;
 
 }
+
 .categories {
     padding:10px;
     border-radius:15px;
@@ -248,6 +258,7 @@ a:hover {
 a:active {
     color:black;
 }
+
 #kontakt{
     margin-right: -17.5%;
     float:right;
