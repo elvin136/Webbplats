@@ -1,8 +1,9 @@
-/* Bakgrunden (=färg) */ 
+/* Bakgrunden bakom header och content */ 
 body {
     background-color : white;
     }
-    /* Remsan högst upp på sidan*/ 
+
+    /* "Boxen" högst upp på sidan där menyn finns */ 
 header {
     width : 1000px;
     margin-left : auto;
@@ -50,7 +51,7 @@ header {
     padding : 0;
     overflow : hidden;
     background-color : whitesmoke;
-    box-shadow: 0 0 2px 1px rgb(0 0 0 / 0.5);
+    box-shadow: 0 0 2px 1px rgb(0 0 0 / 0.5); /* Skugga runt "boxen" */
     border-radius:10px;
 }
 
@@ -155,7 +156,7 @@ img:hover {
     margin-right : auto;
     width : 50%;
 }
-    /* Aside */
+    /* Asiden som ligger bredvid texten där bilder finns inuti*/
 aside {
     width: 15%;
     padding-left: .5rem;
@@ -173,12 +174,14 @@ p {
     font-family: 'Fira Sans', sans-serif;
 }
 
+/* "Kontakta oss"-formulär */
 .my-form{
     width: 60%;
     background-color: #fff;
     margin-top: 20px;
 }
 
+/* Där man skriver in ett "svar" i formuläret */
 input[type=text]{
     width: 50%;
     padding: 12px 20px;
@@ -232,21 +235,23 @@ a:visited {
     color:black;
 }
 
-/* mouse over link */
+/* Färg när man håller musen över länkar */
 a:hover {
     color:  #12ddfb;
 }
 
-/* selected link */
+/* Färg på länkarna*/
 a:active {
     color:black;
 }
 
+/* "Kontakta oss"- rubriken */
 #kontakt{
     margin-right: -17.5%;
     float:right;
 }
 
+/* Bilden i H2-rubrikerna*/
 .image-clip {
     line-height:1;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ZHYcjscDJrIWCmlfSmi41-uGiJxo0Sawa3YpxpNaEOaXgroO&s);
