@@ -102,8 +102,8 @@ header {
     /* Rubriker */ 
 h1 {
     -webkit-text-stroke: 1px black;
-    font-family : Oswald;
-    font-size : 50px;
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size : 44px;
     font-weight : bold;
     text-align : left;
     margin-top : 20px;
@@ -117,7 +117,7 @@ h1 {
     /* Titlarna  */ 
 h2 {
     -webkit-text-stroke: 1px black;
-    font-family : Oswald;
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size : 40px;
     font-weight : bold;
     margin-top : 20px;
@@ -128,8 +128,8 @@ h2 {
 
     /* Brödtexten */ 
 p {
-    font-family : Oswald;
-    font-size : 20px;
+    font-family : Calibri;
+    font-size : 22px;
     font-weight : normal;
     color : black;
     margin-top : 20px;
