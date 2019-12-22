@@ -3,7 +3,7 @@ body {
     background-color : white;
     }
 
-    /* "Boxen" högst upp på sidan där menyn finns */ 
+    /* Utrymmet högst upp på hemsidan innan content börjar */ 
 header {
     width : 1000px;
     margin-left : auto;
@@ -14,7 +14,7 @@ header {
     margin-top:10px;
 }
 
-    /* Headern under menyn */ 
+    /* Bilden i headern under menyn */ 
 #headerbild {
     width : 1000px;
     margin-top: 0px;
