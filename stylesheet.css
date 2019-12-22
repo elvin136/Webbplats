@@ -1,6 +1,6 @@
 /* Bakgrunden bakom header och content */ 
 body {
-    background-color : white;
+    background-color : #F2E8F2;
     }
 
     /* Utrymmet högst upp på hemsidan innan content börjar */ 
@@ -50,9 +50,9 @@ header {
     margin-left : 0;
     padding : 0;
     overflow : hidden;
-    background-color : #F2E8F2;
+    background-color : white;
     box-shadow: 0 0 2px 1px rgb(0 0 0 / 0.5); /* Skugga runt "boxen" */
-    border-radius:10px;
+    border-radius:0px;
 }
 
    /* Vart meny1 ska vara, höger, vänster eller centrerat */ 
