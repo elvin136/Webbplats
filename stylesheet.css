@@ -172,6 +172,7 @@ aside > p {
 
 p {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 /* "Kontakta oss"-formulär */
@@ -268,3 +269,35 @@ footer {
     text-align: center;
     padding-top: 20px; 
 }
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:100%;
+  }
+  
+  /* Vad som händer när man trycker över socialmedia-knapparna */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Välja färger för varje social media */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    text-color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /* Snapchat */
+  .fa-snapchat {
+    background: yellow;
+    color: white;
+  }
