@@ -116,7 +116,7 @@ h1 {
 
     /* Titlarna  */ 
 h2 {
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1.5px black;
     font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size : 40px;
     font-weight : bold;
