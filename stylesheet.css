@@ -276,28 +276,24 @@ footer {
     text-align: center;
     text-decoration: none;
     border-radius:100%;
-  }
-  
+}
   /* Vad som händer när man trycker över socialmedia-knapparna */
-  .fa:hover {
+.fa:hover {
     opacity: 0.7;
-  }
-  
-  /* Välja färger för varje social media */
-  
+} 
+  /* Välja färger för varje social media */ 
   /* Facebook */
-  .fa-facebook {
+.fa-facebook {
     background: #3B5998;
     text-color: white;
-  }
-  
+}
   /* Twitter */
-  .fa-twitter {
+.fa-twitter {
     background: #55ACEE;
     color: white;
-  }
+}
   /* Snapchat */
-  .fa-snapchat {
+.fa-snapchat {
     background: yellow;
     color: white;
-  }
+}
