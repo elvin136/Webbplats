@@ -285,7 +285,7 @@ footer {
   /* Facebook */
 .fa-facebook {
     background: #3B5998;
-    text-color: white;
+    caret-color: white;
 }
   /* Twitter */
 .fa-twitter {
