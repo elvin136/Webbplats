@@ -7,7 +7,8 @@
     </head>
     <body>
 
-        <nav id="wrapper">       
+        <nav id="wrapper">   
+        <!--Menyn som finns högst upp över headern-->    
             <ul id="menyett">
                 <li><a href="Cajsa.html">Cajsa</a></li>
                 <li><a href="Elvin.html">Elvin</a></li>
@@ -17,19 +18,24 @@
         </nav>
 
         <header>
+         <!--Headerbilden-->
             <img src="images/Header2.jpeg" alt="Header" width="1000">   
         </header> 
                
         <div id="content">
+            <!--Första rubriken på hemsidan-->
         <h1> Ljuvliga Cupcakes</h1>
         <aside>
+        <!--Asiden som innehåller 2 bilder-->
             <img src="images/Cupcakee.jpg" alt="Bild på cupcake" width="250" height="300">
             <img src="images/cupcake.jpg" alt="Bild på cupcake" width="250" height="300">
         </aside>
         <div class="categories">
             
             <article>
+             <!--Andra rubriken på hemsidan med bild i texten-->
                 <h2 class="image-clip">Ingredienser</h2>
+            <!--Lista under H2, andra rubriken -->
                 <ul>
                     <li>100 gram rumsvarmt smör</li>
                     <li>2 dl strösocker</li>
@@ -52,44 +58,56 @@
             </article>
             
             <section>
-                <h2 class="image-clip">Såhär gör du</h2>
-                <ul>
-                    <li>Sätt ugnen på 175°C </li>
-                    <li>Vispa smör och socker vitt och poröst, gärna med elvisp
-                        i en bunke. Rör ner ett ägg i taget.
-                    </li>
-                    <li>Blanda mjöl och bakpulver och sikta ner i äggsmeten och rör om. Rör ner mjölken</li>
-                    <li>Ställ muffinsformarna på en plå och fördela smeten till hälften i dem. Grädda i mitten av ugnen
-                        i 25-30 minuter. Kontrollera med en trästicka om muffisen är klara, stickan ska vara torr när man 
-                        drar upp stickan igen. Låt svallna på galler.
-                    </li>
-                </ul>
+            <!--Tredje rubriken på hemsidan med bild i texten-->
+            <h2 class="image-clip">Såhär gör du</h2>
+            <!--Lista under H2, tredje rubriken-->
+            <ul>
+                <li>Sätt ugnen på 175°C </li>
+                <li>Vispa smör och socker vitt och poröst, gärna med elvisp
+                    i en bunke. Rör ner ett ägg i taget.
+                </li>
+                <li>Blanda mjöl och bakpulver och sikta ner i äggsmeten och rör om. Rör ner mjölken</li>
+                <li>Ställ muffinsformarna på en plå och fördela smeten till hälften i dem. Grädda i mitten av ugnen
+                    i 25-30 minuter. Kontrollera med en trästicka om muffisen är klara, stickan ska vara torr när man 
+                    drar upp stickan igen. Låt svallna på galler.
+                </li>
+             </ul>
                 <p>Tillverka frostingen</p>
-                <ul>
-                    <li>Blanda ihop alla ingredienser och vispa tills den tjocknar,
-                        gärna med elvisp.
-                    </li>
-                    <li>Rör i karamellfärg om så önskas.</li>
-                    <li>Spritsa eller bred frostingen på muffinsen och garnera
-                        med bär, silverkulor, strössel eller vad som önskas.
-                    </li>
-               </ul>
+            <ul>
+                <li>Blanda ihop alla ingredienser och vispa tills den tjocknar,
+                    gärna med elvisp.
+                </li>
+                <li>Rör i karamellfärg om så önskas.</li>
+                <li>Spritsa eller bred frostingen på muffinsen och garnera
+                    med bär, silverkulor, strössel eller vad som önskas.
+                </li>
+            </ul>
             </section>
 
+            <!--Kontaka oss-formulär med "namn", "epost" och "skriv ditt meddelande" och en skicka-knapp--> 
+             <form class="my-form">
+            <h2 id="kontakt">KONTAKTA OSS</h2>
+            <label for="fname"></label>
+            <input placeholder="Skriv ditt namn:" type="text" name="fname" id="fname">
+            
+            <label for="email"></label>
+            <input placeholder="Skriv din E-post" type="text" name="email" id="email">
+
+            <textarea placeholder="Skriv ditt meddelande" name="textarea" id="textarea" cols="40" rows="10"></textarea>
+            <input  class="button" type="submit" value="Skicka">
+            </form>            
+            </div> 
+
+            <!--Footern = längst ner på hemsidan. Våra namn + 3 sociala media-ikoner-->
             <footer>
-                <form class="my-form">
-                    <h2 id="kontakt">KONTAKTA OSS</h2>
-                <label for="fname"></label>
-                <input placeholder="Skriv ditt namn:" type="text" name="fname" id="fname">
+                <p>Emelia, Elvin, Cajsa &copy;2019</p>
                 
-                <label for="email"></label>
-                <input placeholder="Skriv din E-post" type="text" name="email" id="email">
-    
-                <textarea placeholder="Skriv ditt meddelande" name="textarea" id="textarea" cols="40" rows="10"></textarea>
-                <input  class="button" type="submit" value="Skicka">
-            </form>          
-            </footer>
-            </div>       
-    </div>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-snapchat"></a>
+
+            </footer>       
     </body>
 </html>
