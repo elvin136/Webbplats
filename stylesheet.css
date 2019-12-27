@@ -183,7 +183,7 @@ p {
 .my-form{
     width: 60%;
     background-color: #fff;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 /* Där man skriver in ett "svar" i formuläret */
@@ -196,23 +196,26 @@ input[type=text]{
 }
   
 .my-form .form-group {
-    padding-bottom:15px    
+    padding-bottom: 15px;     
 }
   
 .my-form label{
     display:block;
 }
-  
+ /* Storleken på rutorna för e-post, namn och "skriv ditt meddelande här" */ 
 .my-form input[type="text"], .my-form textarea{
     padding:8px;
     width:30%;
+    margin-right: 3em;
+    float: right;
 }
 
 #textarea {
-    margin-right: -13.2%;
+    margin-right: -33.2%;
     float: right;
-    margin-top: 10px;
+    margin-top: 70px;
     max-width: 50%;
+     width:30%;
 }
 
 .categories {
