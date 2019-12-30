@@ -215,12 +215,18 @@ input[type=text]{
     margin-right: 5%;
     float: right;
     margin-top: 12%
+}
+
+.label #fname {
+    float: left;
+}
 
 #textarea {
     margin-right: -33.2%;
     float: right;
     margin-top: 20%;
-    max-width: 50%;   
+    max-width: 50%;
+    
 }
 
 .categories {
