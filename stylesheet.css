@@ -200,11 +200,9 @@ input[type=text]{
     margin-right:-20%;
     margin-top: 10px;
 }
-  
 .my-form .form-group {
     padding-bottom: 15px;     
-}
-  
+} 
 .my-form label{
     display:block;
 }
