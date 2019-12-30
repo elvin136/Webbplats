@@ -186,6 +186,12 @@ p {
     margin-top: 50px;
 }
 
+.my-form #kontakt{
+    float: left;
+    margin-top: 10px
+
+}
+
 /* Där man skriver in ett "svar" i formuläret */
 input[type=text]{
     width: 50%;
@@ -206,16 +212,15 @@ input[type=text]{
 .my-form input[type="text"], .my-form textarea{
     padding:8px;
     width:30%;
-    margin-right: 3em;
+    margin-right: 5%;
     float: right;
-}
+    margin-top: 12%
 
 #textarea {
     margin-right: -33.2%;
     float: right;
-    margin-top: 70px;
-    max-width: 50%;
-    
+    margin-top: 20%;
+    max-width: 50%;   
 }
 
 .categories {
@@ -223,6 +228,7 @@ input[type=text]{
     border-radius:15px;
 }
 
+/* Skicka-knappen i kontaktformuläret */
 .button {
     margin-top: 10px;
     margin-left: 35.5%;
