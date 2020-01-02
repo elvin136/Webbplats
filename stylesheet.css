@@ -200,10 +200,11 @@ input[type=text]{
     margin-right:-20%;
     margin-top: 10px;
 }
+
 .my-form .form-group {
     padding-bottom: 15px;     
 }
- 
+
 .my-form label{
     display:block;
 }
@@ -295,22 +296,22 @@ footer {
     text-decoration: none;
     border-radius:100%;
 }
-  /* Vad som händer när man trycker över socialmedia-knapparna */
+/* Vad som händer när man trycker över socialmedia-knapparna */
 .fa:hover {
     opacity: 0.7;
 } 
-  /* Välja färger för varje social media */ 
-  /* Facebook */
+/* Välja färger för varje social media */ 
+/* Facebook */
 .fa-facebook {
     background: #3B5998;
     caret-color: white;
 }
-  /* Twitter */
+/* Twitter */
 .fa-twitter {
     background: #55ACEE;
     color: white;
 }
-  /* Snapchat */
+/* Snapchat */
 .fa-snapchat {
     background: yellow;
     color: white;
