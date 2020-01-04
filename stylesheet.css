@@ -171,6 +171,7 @@ aside > p {
     margin: .5rem;
 }
 
+/* Typsnitt på brödtext */
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -187,10 +188,10 @@ p {
     margin-top: 50px;
 }
 
+/* "Kontakta oss"-formulär */
 .my-form #kontakt{
     float: left;
     margin-top: 10px
-
 }
 
 /* Där man skriver in ett "svar" i formuläret */
