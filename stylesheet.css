@@ -203,23 +203,6 @@ input[type=text]{
     margin-top: 10px;
 }
 
-.my-form .form-group {
-    padding-bottom: 15px;     
-}
-
-.my-form label{
-    display:block;
-}
-
- /* Storleken på rutorna för e-post, namn och "skriv ditt meddelande här" */ 
-.my-form input[type="text"], .my-form textarea{
-    padding:8px;
-    width:30%;
-    margin-right: 5%;
-    float: right;
-    margin-top: 12%;
-}
-
 .label #fname {
     float: left;
 }
