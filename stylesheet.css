@@ -245,26 +245,6 @@ input[type=text]{
     margin-bottom: 10px;
 }
 
-/* Färgen på obesökta länkar */
-a:link {
-    color: black;
-}
-
-/* Färgen på besökta länkar */
-a:visited {
-    color:black;
-}
-
-/* Färg när man håller musen över länkar */
-a:hover {
-    color:  #12ddfb;
-}
-
-/* Färg på länkarna*/
-a:active {
-    color:black;
-}
-
 /* "Kontakta oss"- rubriken */
 #kontakt{
     margin-right: -17.5%;
