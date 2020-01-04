@@ -149,7 +149,8 @@ img:hover {
     box-shadow : 0 0 2px 1px rgb(0 140 186 / 0.5);
     opacity : 0.5;
 }
-
+ /* Placeringen för hemsidans innehåll. Asiden håller sig till höger och bild-länkarna
+ ligger som en kvadrat */
 .center {
     display : block;
     margin-left : auto;
