@@ -174,12 +174,22 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
+/* Class för fetstil på text */
+.bold {
+    font-weight: bold;
+}
 
 /* "Kontakta oss"-formulär */
 .my-form{
     width: 60%;
     background-color: #fff;
-    margin-top: 20px;
+    margin-top: 50px;
+}
+
+.my-form #kontakt{
+    float: left;
+    margin-top: 10px
+
 }
 
 /* Där man skriver in ett "svar" i formuläret */
@@ -190,25 +200,33 @@ input[type=text]{
     margin-right:-20%;
     margin-top: 10px;
 }
-  
+
 .my-form .form-group {
-    padding-bottom:15px    
+    padding-bottom: 15px;     
 }
-  
+
 .my-form label{
     display:block;
 }
-  
+ /* Storleken på rutorna för e-post, namn och "skriv ditt meddelande här" */ 
 .my-form input[type="text"], .my-form textarea{
     padding:8px;
     width:30%;
+    margin-right: 5%;
+    float: right;
+    margin-top: 12%
+}
+
+.label #fname {
+    float: left;
 }
 
 #textarea {
-    margin-right: -13.2%;
+    margin-right: -33.2%;
     float: right;
-    margin-top: 10px;
+    margin-top: 20%;
     max-width: 50%;
+    
 }
 
 .categories {
@@ -216,6 +234,7 @@ input[type=text]{
     border-radius:15px;
 }
 
+/* Skicka-knappen i kontaktformuläret */
 .button {
     margin-top: 10px;
     margin-left: 35.5%;
@@ -256,10 +275,10 @@ a:active {
 .image-clip {
     line-height:1;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ZHYcjscDJrIWCmlfSmi41-uGiJxo0Sawa3YpxpNaEOaXgroO&s);
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
-    -webkit-background-clip:text;
-    -moz-background-clip:text;  
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 
 /* Innehållet längst ner på hemsidan*/
@@ -276,28 +295,24 @@ footer {
     text-align: center;
     text-decoration: none;
     border-radius:100%;
-  }
-  
-  /* Vad som händer när man trycker över socialmedia-knapparna */
-  .fa:hover {
+}
+/* Vad som händer när man trycker över socialmedia-knapparna */
+.fa:hover {
     opacity: 0.7;
-  }
-  
-  /* Välja färger för varje social media */
-  
-  /* Facebook */
-  .fa-facebook {
+} 
+/* Välja färger för varje social media */ 
+/* Facebook */
+.fa-facebook {
     background: #3B5998;
-    text-color: white;
-  }
-  
-  /* Twitter */
-  .fa-twitter {
+    caret-color: white;
+}
+/* Twitter */
+.fa-twitter {
     background: #55ACEE;
     color: white;
-  }
-  /* Snapchat */
-  .fa-snapchat {
+}
+/* Snapchat */
+.fa-snapchat {
     background: yellow;
     color: white;
-  }
+}

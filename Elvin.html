@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
 </head>
 <body>
+    <!--Här är menyn som finns högst upp över headern-->
     <div id="wrapper">
         <ul id="menyett"> 
             <li><a href="Cajsa.html">Cajsa</a></li>
@@ -16,39 +17,86 @@
             <li><a href="index.html">Start</a></li>                                
         </ul>  
 
-        <header>
-            <img src="images/Header2.jpeg" alt="Header" width="1000">  
+        <!--Headerbilden-->
+        <header>       
+            <img src="images/Header2.jpeg" alt="Header" width="1000">   
         </header> 
-               
+
         <div id="content">
+            <!--Första rubriken på hemsidan-->
+        <h1>Kladdkaka</h1>
         <aside>
-            <img src="images/baka.jpg" alt="Bild på bakelser" width="250" height="240">>
-            </aside>
+        <!--Asiden som innehåller 2 bilder-->
+            <img src="images/kladdkaka1.jpg" alt="Bild på cupcake" width="250" height="300">
+            <img src="images/kladdkaka2.jpg" alt="Bild på cupcake" width="250" height="300">
+        </aside>
+        <div class="categories">
+            
+            <article>
+                <!--Andra rubriken på hemsidan med bild i texten-->
+                <h2 class="image-clip">Ingredienser</h2>
+                <!--Lista under H2, andra rubriken -->
+                <ul>
+                    <li>100 g smör</li>
+                    <li>2 st ägg</li>
+                    <li>3 dl strösocker</li>
+                    <li>3 msk kakao</li>
+                    <li>2 tsk vaniljsocker</li>
+                    <li>1 1/2 dl vetemjöl</li>
+                    <li>smör till formen</li>
+                    <li>ströbröd till formen</li>
+
+                </ul>
+                <p>Till servering</p>
+                <ul>
+                    <li>florsocker till garnering</li>
+                    <li>2 dl vispgrädde</li>
+                    <li>frukt eller bär</li>           
+                </ul> 
             </article>
             
             <section>
-               
+            <!--Tredje rubriken på hemsidan med bild i texten-->
+            <h2 class="image-clip">Såhär gör du</h2>
+            <!--Lista under H2, tredje rubriken-->
+            <ul>
+                <li>Sätt ugnen på 200°C</li>
+                <li>Smält smöret i kastrull, låt svalna något.</li>
+                <li>Vispa ihop ägg och socker (använd inte en elvisp).</li>
+                <li>Blanda kakao, vaniljsocker och vetemjöl i en bunke och rör ner i äggblandningnen.</li>
+                <li>Tillsätt det smälta smöret och blanda försiktigt ihop till en jämn smet och häll sedan över smeten i en smörad och bröad springform med löstagbar kant, 24 cm i diameter (för 8 bitar).
+                </li>
+                <li>Grädda mitt i ugnen i ca 10-15 minuter (öka eller minska tiden vid behov beroende på hur kladdig/seg du vill ha den).
+                </li>
+                <li>Ta ut kladdkakan och låt svalna.</li>
+                <li>Sikta florsocker över om så önskas. Servera med vispad grädde, färska jordgubbar eller annan valfri frukt till.</li>
+            </ul>
             </section>
 
+            <!--Kontaka oss-formulär med "namn", "epost" och "skriv ditt meddelande" och en skicka-knapp--> 
+            <form class="my-form">
+            <h2 id="kontakt">KONTAKTA OSS</h2>
+            <label for="fname"></label>
+            <input placeholder="Skriv ditt namn:" type="text" name="fname" id="fname">
+            
+            <label for="email"></label>
+            <input placeholder="Skriv din E-post" type="text" name="email" id="email">
+
+            <textarea placeholder="Skriv ditt meddelande" name="textarea" id="textarea" cols="40" rows="10"></textarea>
+            <input  class="button" type="submit" value="Skicka">
+            </form>            
+            </div> 
+
+            <!--Footern = längst ner på hemsidan. Våra namn + 3 sociala media-ikoner-->
             <footer>
-                <h2>Kontakta oss</h2>
-                <form class="my-form">
-                    <div class="form-group">
-                        <label for="name">Namn:</label>
-                        <input id type="name">
-                    </div>
-                    <div class="formg-group">
-                        <label for="email">E-post: </label>
-                        <input id="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Meddelande: </label>
-                        <textarea id="message"></textarea>
-                    </div>
-                    <input class="button" type="submit" value="Submit" name="">        
-            </form>          
-            </footer>
-            </div>       
-    </div>
+                <p>Emelia, Elvin, Cajsa &copy;2019</p>
+                
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-snapchat"></a>
+
+            </footer>       
     </body>
 </html>
