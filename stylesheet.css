@@ -76,6 +76,7 @@ header {
 #menyett li a:hover {
     background-color : white;
 }
+
     /* Wrapper = storlek på hela sidan */ 
 #wrapper {
     width : 1000px;
@@ -143,6 +144,7 @@ img {
     padding : 0;
     margin : 0;
 }
+
     /* Vad som händer när man tar pilen på alla bilder,
     just nu blir det lite transparenta och får skugga */ 
 img:hover {
@@ -150,6 +152,8 @@ img:hover {
     opacity : 0.5;
 }
 
+ /* Placeringen för hemsidans innehåll. Asiden håller sig till höger och bild-länkarna
+ ligger som en kvadrat */
 .center {
     display : block;
     margin-left : auto;
@@ -170,38 +174,79 @@ aside > p {
     margin: .5rem;
 }
 
+/* Typsnitt på brödtext */
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
+
 /* Class för fetstil på text */
 .bold {
     font-weight: bold;
 }
 
+/* "Kontakta oss"-formulär */
+.my-form{
+    width: 60%;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+/* "Kontakta oss"-rubriken*/
+.my-form #kontakt{
+    float: left;
+    margin-top: 10px
+}
+
+/* Där man skriver in ett "svar" i formuläret */
+input[type=text]{
+    width: 50%;
+    padding: 12px 20px;
+    float: right;
+    margin-right:-20%;
+    margin-top: 10px;
+}
+  
+.my-form .form-group {
+    padding-bottom: 15px;     
+}
+  
+.my-form label{
+    display:block;
+}
+ /* Storleken på rutorna för e-post, namn och "skriv ditt meddelande här" */ 
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width:30%;
+    margin-right: 5%;
+    float: right;
+    margin-top: 12%
+}
+
+.label #fname {
+    float: left;
+}
+#textarea {
+    margin-right: -33.2%;
+    float: right;
+    margin-top: 20%;
+    max-width: 50%;   
+}
+/* Placering för hemsidans innehåll */
 .categories {
     padding:10px;
     border-radius:15px;
 }
 
-/* Färgen på obesökta länkar */
-a:link {
-    color: black;
-}
-
-/* Färgen på besökta länkar */
-a:visited {
-    color:black;
-}
-
-/* Färg när man håller musen över länkar */
-a:hover {
-    color:  #12ddfb;
-}
-
-/* Färg på länkarna*/
-a:active {
-    color:black;
+/* Skicka-knappen i kontaktformuläret */
+.button {
+    margin-top: 10px;
+    margin-left: 35.5%;
+    width: 120px;
+    height: 40px;
+    background-color: #222;
+    color: #fff;
+    margin-bottom: 10px;
 }
 
 /* "Kontakta oss"- rubriken */
@@ -214,19 +259,20 @@ a:active {
 .image-clip {
     line-height:1;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ZHYcjscDJrIWCmlfSmi41-uGiJxo0Sawa3YpxpNaEOaXgroO&s);
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;  
 }
 
-/* Innehållet längst ner på hemsidan*/
+    /* Innehållet längst ner på hemsidan*/
 footer {  
     width: 100%;
     height: 150px;
     text-align: center;
     padding-top: 20px; 
 }
+
 .fa {
     padding: 20px;
     font-size: 40px;
@@ -235,22 +281,26 @@ footer {
     text-decoration: none;
     border-radius:100%;
 }
-/* Vad som händer när man trycker över socialmedia-knapparna */
+
+
+  /* Vad som händer när man trycker över socialmedia-knapparna */
 .fa:hover {
     opacity: 0.7;
 } 
-/* Välja färger för varje social media */ 
-/* Facebook */
+  /* Välja färger för varje social media */ 
+  /* Facebook */
 .fa-facebook {
     background: #3B5998;
     caret-color: white;
 }
-/* Twitter */
+
+  /* Twitter */
 .fa-twitter {
     background: #55ACEE;
     color: white;
 }
-/* Snapchat */
+
+  /* Snapchat */
 .fa-snapchat {
     background: yellow;
     color: white;
