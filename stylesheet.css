@@ -214,6 +214,7 @@ input[type=text]{
 .my-form label{
     display:block;
 }
+
  /* Storleken på rutorna för e-post, namn och "skriv ditt meddelande här" */ 
 .my-form input[type="text"], .my-form textarea{
     padding:8px;
@@ -226,12 +227,14 @@ input[type=text]{
 .label #fname {
     float: left;
 }
+
 #textarea {
     margin-right: -33.2%;
     float: right;
     margin-top: 20%;
     max-width: 50%;   
 }
+
 /* Placering för hemsidans innehåll */
 .categories {
     padding:10px;
