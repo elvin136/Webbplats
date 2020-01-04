@@ -262,10 +262,9 @@ input[type=text]{
 .image-clip {
     line-height:1;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ZHYcjscDJrIWCmlfSmi41-uGiJxo0Sawa3YpxpNaEOaXgroO&s);
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
-    -webkit-background-clip:text;
-    -moz-background-clip:text;  
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
 }
 
 /* Innehållet längst ner på hemsidan*/
